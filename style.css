@@ -10,12 +10,6 @@ body {
     background-color: #1F2937;
 }
 
-.header, .hero,
-.info,
-.footer {
-    padding: 0 10%;
-}
-
 .logo, h1 {
     color: #F9FAF8;
 }
@@ -25,6 +19,7 @@ a {
 }
 
 .header {
+    padding: 15px 15% 0 15%;
     display: flex;
 }
 
@@ -38,7 +33,7 @@ a {
     margin: 0 0 0 auto;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 a, .subtext,
@@ -48,17 +43,29 @@ a, .subtext,
 }
 
 .hero {
+    padding: 50px 15%;
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
+
 }
 
 .herotext, .container {
     flex: 1;
+    align-self: center;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
+    margin-bottom: -10px;
 }
 
 .heroimg {
@@ -71,6 +78,22 @@ button,
 .signup {
     background-color: #3882F6;
     color: #E5E7EB;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.herobutton {
+    border: none;
+    align-self: flex-start;
+}
+
+.subutton {
+    border-style: solid;
+    border-color:#E5E7EB;
 }
 
 .info {
@@ -119,6 +142,7 @@ figcaption {
 }
 
 .footer {
+    padding: 20px 15%;
     text-align: center;
     padding: 50px;
 }
