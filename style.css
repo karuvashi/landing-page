@@ -4,9 +4,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+
 .header,
 .hero, .footer {
     background-color: #1F2937;
+}
+
+.header, .hero,
+.info,
+.footer {
+    padding: 0 10%;
 }
 
 .logo, h1 {
@@ -19,7 +26,6 @@ a {
 
 .header {
     display: flex;
-    align-items: flex-start;
 }
 
 .logo {
@@ -43,6 +49,11 @@ a, .subtext,
 
 .hero {
     display: flex;
+    justify-content: space-between;
+}
+
+.herotext, .container {
+    flex: 1;
 }
 
 h1 {
@@ -51,9 +62,10 @@ h1 {
 }
 
 .heroimg {
-    width: 300px;
+    width: 100%;
     align-self: center;
 }
+
 
 button, 
 .signup {
@@ -69,7 +81,8 @@ button,
 
 .images {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
 .imageblock {
@@ -85,9 +98,24 @@ button,
 
 .quote {
     background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.qblock {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
 }
 
 .footer {
