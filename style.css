@@ -7,9 +7,55 @@ body {
 .header,
 .hero {
     background-color: #1F2937;
+}
+
+.logo, h1 {
     color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
     display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a, .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.heroimg {
+    width: 300px;
+    align-self: center;
+}
+
+button, 
+.signup {
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
