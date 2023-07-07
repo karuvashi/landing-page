@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+}
