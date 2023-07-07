@@ -1,11 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
 .header,
-.hero {
+.hero, .footer {
     background-color: #1F2937;
 }
 
@@ -35,7 +35,8 @@ a {
     gap: 10px;
 }
 
-a, .subtext {
+a, .subtext,
+.footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -58,4 +59,38 @@ button,
 .signup {
     background-color: #3882F6;
     color: #E5E7EB;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.imageblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
 }
