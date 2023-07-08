@@ -82,13 +82,20 @@ button,
 
 button {
     padding: 5px 20px;
+    border-style: solid;
     border-radius: 8px;
     font-size: 18px;
+    transition-duration: 0.4s;
 }
 
 .herobutton {
-    border: none;
+    border-color: #3882F6;
     align-self: flex-start;
+}
+
+.herobutton:hover {
+    border-color: #E5E7EB;
+    background-color: #1F2937;
 }
 
 
@@ -169,10 +176,13 @@ h3 {
 }
 
 .subutton {
-    border-style: solid;
     border-color: #E5E7EB;
     align-self: center;
     margin-left: auto;
+}
+
+.subutton:hover {
+    background-color:#1F2937;
 }
 
 .footer {
